@@ -1,16 +1,49 @@
-# React + Vite
+# A Movie Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast and simple React application to search movies and view complete details using a public movie database API.    
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Search movies by title
 
-## React Compiler
+View movie list based on the navigation list
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+View detailed movie info (poster, rating, overview, release date, genres)
 
-## Expanding the ESLint configuration
+Built with custom React hooks for cleaner and reusable logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive UI with Tailwind CSS + Flowbite
+
+Optimized API handling with async/await    
+
+
+# Tech Stack
+
+React + Vite
+
+Tailwind CSS
+
+Flowbite UI components
+
+Movie API (TMDb or similar)
+
+
+# How to Run
+
+npm install
+npm run dev
+
+# How to Add API
+
+Create a `.env` file in the project root and add:
+
+VITE_TMDB_TOKEN=your_tmdb_api_token_here
+
+
+# Project Highlights
+
+Clean folder structure (components, hooks, pages)
+
+Reusable UI + custom hooks
+
+Easy to extend and integrate new features
